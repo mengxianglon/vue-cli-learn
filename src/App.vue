@@ -10,11 +10,12 @@
 <!--2行为：处理逻辑-->
 <script>
 import HelloWorld from './components/HelloWorld'
-
+import Users from './components/Users'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Users
   }
 }
 </script>

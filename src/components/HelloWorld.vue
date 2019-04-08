@@ -19,6 +19,7 @@ export default {
 <style scoped>
 h1, h2 {
   font-weight: normal;
+  color: aqua;
 }
 ul {
   list-style-type: none;
