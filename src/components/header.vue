@@ -1,6 +1,7 @@
 <template>
   <header>
-    <h1>{{ title }}</h1>
+    <h1 v-show="see">{{ title }}</h1>
+    <button v-on:click="see=!see">click this button</button>
   </header>
 </template>
 
@@ -9,6 +10,7 @@ export default {
   name: 'app-header',
   data () {
     return {
+      see:true,
       title: 'this is a header line'
     }
   }
