@@ -1,21 +1,21 @@
 <!--1模板:html-->
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld/>
-    <users></users>
+    <app-header></app-header>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <!--2行为：处理逻辑-->
 <script>
-import HelloWorld from './components/HelloWorld'
-import Users from './components/Users'
+import Header from './components/Header'
+import Footer from './components/Footer'
+
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    Users
+    "app-header":Header,
+    "app-footer":Footer
   }
 }
 </script>

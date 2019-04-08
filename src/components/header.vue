@@ -1,15 +1,15 @@
 <template>
-  <header >
+  <header>
     <h1>{{ title }}</h1>
   </header>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'app-header',
   data () {
     return {
-      title: 'Welcome to Your Vue.js App'
+      title: 'this is a header line'
     }
   }
 }
@@ -17,5 +17,7 @@ export default {
 
 
 <style scoped>
-
+  header  h1{
+       color:crimson; 
+    }
 </style>
